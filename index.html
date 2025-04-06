@@ -3,81 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yolwise Georgia - Marketing & Web Content</title>
+    <title>Yolwise Georgia - Digital Marketing Experts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Reconstruction Notice -->
+    <div class="reconstruction-banner">
+        <div class="container">
+            <p><i class="fas fa-exclamation-circle"></i> We're currently reconstructing our website. Some features may be temporarily unavailable. For urgent inquiries, please contact us directly.</p>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+
     <header>
         <div class="container">
-            <h1>Yolwise Georgia</h1>
-            <nav>
+            <h1>Yolwise <span>Georgia</span></h1>
+            <nav class="nav-menu">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#cases">Case Studies</a></li>
+                    <li><a href="#about">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="home">
-        <div class="container">
-            <h2>Marketing & Web Content Solutions</h2>
-            <p>Elevate your business with our professional services</p>
-            <button class="cta-btn">Get Started</button>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container" data-aos="fade-up">
+            <h2>Double Your Sales in 3 Months!</h2>
+            <p>Full-cycle digital marketing solutions with guaranteed results</p>
+            <button class="cta-btn pulse">Get Free Consultation</button>
         </div>
     </section>
 
-    <section id="services">
+    <!-- Team Section -->
+    <section id="about" class="team-section">
         <div class="container">
-            <h2>Our Services</h2>
-            <div class="services-grid">
-                <div class="service-item">
-                    <h3>Digital Marketing</h3>
-                    <p>SEO, Social Media, PPC Campaigns</p>
+            <h2 data-aos="fade-up">Our Professional Team</h2>
+            <div class="team-grid">
+                <div class="team-card" data-aos="fade-up">
+                    <img src="assets/images/team-member1.jpg" alt="Marketing Specialist">
+                    <h3>Marketing Specialist</h3>
+                    <p>Digital Strategy</p>
                 </div>
-                <div class="service-item">
-                    <h3>Web Content</h3>
-                    <p>Websites, Blogs, Multimedia</p>
-                </div>
-                <div class="service-item">
-                    <h3>Branding</h3>
-                    <p>Logo Design, Brand Strategy</p>
+                <div class="team-card" data-aos="fade-up">
+                    <img src="assets/images/team-member2.jpg" alt="Web Developer">
+                    <h3>Web Developer</h3>
+                    <p>Technical Solutions</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Yolwise Georgia is a leading provider of marketing services and web content creation based in Tbilisi.</p>
-        </div>
-    </section>
-
+    <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <h2>Contact Us</h2>
-            <div class="contact-info">
-                <p><strong>Address:</strong> Georgia, 0177, Tbilisi, Ferdinand Tavadze str. 3</p>
-                <p><strong>Phone:</strong> +995 551 958 880</p>
-                <p><strong>Email:</strong> yolwisegeorgia@gmail.com</p>
-                <p><strong>ID Number:</strong> 405668905</p>
+            <h2 data-aos="fade-up">Contact Us Directly</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Immediate Assistance</h3>
+                    <p><i class="fas fa-phone"></i> Phone/WhatsApp: +995 551 958 880</p>
+                    <p><i class="fas fa-envelope"></i> Email: yolwisegeorgia@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Tbilisi, Georgia</p>
+                </div>
+                <div class="contact-notice" data-aos="fade-left">
+                    <h3>Website Under Reconstruction</h3>
+                    <p>We apologize for any inconvenience. Our website is currently being upgraded to serve you better.</p>
+                    <p>For immediate assistance, please use the contact information provided.</p>
+                </div>
             </div>
-            <!-- PayPal button placeholder -->
-            <div id="paypal-button-container"></div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Yolwise Georgia. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Yolwise Georgia</h3>
+                    <p>Digital marketing agency helping businesses grow online.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Contact</h3>
+                    <p><i class="fab fa-whatsapp"></i> +995 551 958 880</p>
+                    <p><i class="fas fa-envelope"></i> yolwisegeorgia@gmail.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Yolwise Georgia. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
-    <!-- PayPal SDK - Add this before your custom script -->
-    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD"></script>
 </body>
 </html>
